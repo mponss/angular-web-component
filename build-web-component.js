@@ -8,6 +8,6 @@ build = async () => {
   ];
 
   await fs.ensureDir("src/assets");
-  await concat(files, "src/assets/angular-web-component.js");
+  await concat(files, "src/assets/angular-web-component-v14.js");
 };
 build();

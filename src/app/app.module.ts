@@ -20,7 +20,7 @@ export class AppModule implements DoBootstrap {
 
   ngDoBootstrap(): void {
     const customElement = createCustomElement(AppComponent, { injector:this.injector });
-    console.log("doBootstrap")
+    console.log("doBootstrap angular-web-component-v14")
     customElements.define('angular-web-component-v14', customElement);
   }
 }
